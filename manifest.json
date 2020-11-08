@@ -1,0 +1,31 @@
+{
+  "name": "Small Crypt Extension",
+  "version": "1.0",
+  "description": "Build an Extension!",
+  "manifest_version": 2,
+  "web_accessible_resources": [
+    "*.js",
+    "smallcrypt/index.js",
+    "smallcrypt/auxiliar/*.js"
+  ],
+  "icons": {
+    "16": "./sha16.png",
+    "32": "./sha32.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "A popup will come here. For erros read:  https://stackoverflow.com/questions/25733511/chrome-extension-on-browser-action-create-a-pop-up-and-execute-a-script"
+  },
+
+  "permissions": ["tabs", "<all_urls>", "storage", "activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}

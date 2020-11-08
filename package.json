@@ -1,0 +1,17 @@
+{
+  "name": "extensionsmallcrypt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "smallcrypt": "^1.1.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.4.0"
+  }
+}

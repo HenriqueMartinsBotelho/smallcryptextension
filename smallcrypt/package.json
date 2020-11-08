@@ -1,0 +1,51 @@
+{
+  "_from": "smallcrypt",
+  "_id": "smallcrypt@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-zIknIuYIvkEtxWYP9te0ghyghP4qvhubH/mmsGAn6XQ4AMlmsyhbqZRPW8TboY77rh8oX8hU5JJjCLaRAe/QNQ==",
+  "_location": "/smallcrypt",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "smallcrypt",
+    "name": "smallcrypt",
+    "escapedName": "smallcrypt",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/smallcrypt/-/smallcrypt-1.1.0.tgz",
+  "_shasum": "aea72192d9526a1135525cdb08ecbef609970e4d",
+  "_spec": "smallcrypt",
+  "_where": "C:\\Users\\henri\\dev\\extensionsmallcrypt",
+  "author": {
+    "name": "Henrique Martins"
+  },
+  "bugs": {
+    "url": "https://github.com/HenriqueMartinsBotelho/smallcrypt/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Small Cryptography Library",
+  "homepage": "https://github.com/HenriqueMartinsBotelho/smallcrypt#readme",
+  "keywords": [
+    "Small",
+    "Cryptography"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "smallcrypt",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HenriqueMartinsBotelho/smallcrypt.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.0"
+}
